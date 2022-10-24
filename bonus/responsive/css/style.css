@@ -1,0 +1,22 @@
+:root{
+    --col-color: #006cfa;
+}
+
+[class*="container"]{
+    margin-bottom: 2rem;
+}
+[class*="col"]{
+    min-height: 2rem;
+
+    text-align: center;
+    /* just an easy fix */
+    padding-top: 5px;
+    color: white;
+
+    border: 1px solid white;
+    background-color: var(--col-color);
+}
+[class*="col"] [class*="col"]{
+    border: 5px solid var(--col-color);
+    background-color: #00e265;
+}
