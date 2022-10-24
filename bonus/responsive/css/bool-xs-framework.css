@@ -46,6 +46,7 @@
 
     flex: 0 0 auto;
 
+    min-width: var(--col-width);
     flex-basis: var(--col-width);
     max-width: var(--col-width);
 }
